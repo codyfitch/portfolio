@@ -1,0 +1,54 @@
+.bg_box {
+	background-color: white;
+	border-width: 1px;
+	border-style: solid;
+	border-color: grey;
+	border-radius: 25px;
+	box-shadow: 10px 10px grey;
+	width: 800px;
+	margin: auto;
+}	
+
+
+
+.header_name {
+	font-family: Montserrat;
+	padding-bottom: 0%;
+}
+
+.tag_line {
+	padding-top:0%;
+	font-family: Arial;
+}
+
+.p_block {
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.p1 {
+	display: inline-block;
+	font-size: 20px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #554C4A;
+	margin: 0 auto;
+}
+
+.p2 {
+	display: inline-block;
+	font-size:20px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #554C4A;
+	margin: 0 auto;
+}
+
+.p3 {
+	display: inline-block;
+	font-size:20px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #554C4A;
+	margin: 0 auto;
+}
