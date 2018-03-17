@@ -125,7 +125,7 @@ body {
 	padding-bottom: 100px;
 	padding-left: 0px;
 	padding-right: 0px;
-	margin-top: -400px;
+	margin-top: -430px;
 	margin-bottom: -50px;
 	border-radius: 25px;
 	color: purple;
@@ -150,7 +150,7 @@ body {
 
 .next_btn_work {
 	font-size: 30px;
-	margin-top: 50px;
+	margin-top: 90px;
 	padding-left: 0px;
 }
 
@@ -172,6 +172,35 @@ body {
 	margin-bottom: -50px;
 	border-radius: 25px;
 	color: purple;
+}
+
+.back_btn_contact {
+	font-size: 30px;
+	margin-top: 60px;
+	padding-left: 0px;
+}
+
+.left_bar_contact {
+	float: left;
+	writing-mode:tb-rl;
+    -webkit-transform:rotate(0deg);
+    -moz-transform:rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform:rotate(0deg);
+    transform: rotate(0deg);
+	margin-top: -300px;
+	margin-bottom: -50px;
+	border-radius: 25px;
+	color: purple;
+}
+
+.left_sidebar_contact {
+	font-size: 40px;
+	font-family: Oswald;
+	padding-right: -20px;
+	padding-left: -20px;
+	margin-left: 0px;
+	margin-top: 30px;
 }
 
 .next_btn {
@@ -274,6 +303,10 @@ body {
 	border-width: 3px;
 	border-color: #554C4A;
 	margin: 0 auto;
+}
+
+.form_container {
+	text-align: center;
 }
 
 .navbar {
