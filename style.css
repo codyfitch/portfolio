@@ -1,20 +1,194 @@
+body {
+	background-image: url("images/dark-triangles.png");
+	/*background-image: url("images/dust_scratches.png");*/
+	/*margin-top: 150px;*/
+}
+
+.name_header {
+	font-size: 100px;
+	text-align: center;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	font-family: 'Montserrat', cursive;
+	color: blue;
+}
+
+.tagline {
+	font-size: 50px;
+	text-align: center;
+	padding-top: 0px;
+	margin-top: 10px;
+	padding-bottom: 10px;
+    font-family: Oswald;
+	color: yellow;
+	background-color: green;
+}
+
+.profile_container {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	padding-bottom: 0px;
+}
+
+.profile_pic {
+	width: 500px;
+	height: auto;
+	border-radius: 50px;
+}
+
+.text_container {
+	padding-left: 260px;
+}
+
+.text_box {
+	width: 500px;
+	text-align: left;
+}
+
+.right_bar {
+	float: right;
+	writing-mode:tb-rl;
+    -webkit-transform:rotate(180deg);
+    -moz-transform:rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform:rotate(180deg);
+    transform: rotate(180deg);
+	border-style: solid;
+	border-size: 0px;
+	border-color: transparent;
+	padding-top: 120px;
+	padding-bottom: 100px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-top: -320px;
+	margin-bottom: -50px;
+	border-radius: 25px;
+	color: purple;
+}
+
+.sidebar {
+	font-size: 40px;
+	font-family: Oswald;
+	padding-right: -20px;
+	padding-left: -20px;
+	margin-left: 0px;
+}
+
+.right_bar_me {
+	float: right;
+	writing-mode:tb-rl;
+    -webkit-transform:rotate(180deg);
+    -moz-transform:rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform:rotate(180deg);
+    transform: rotate(180deg);
+	border-style: solid;
+	border-size: 0px;
+	border-color: transparent;
+	padding-top: 120px;
+	padding-bottom: 100px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-top: -500px;
+	margin-bottom: -50px;
+	border-radius: 25px;
+	color: purple;
+}
+
+.sidebar_me {
+	font-size: 40px;
+	font-family: Oswald;
+	padding-right: -20px;
+	padding-left: -20px;
+	margin-left: 0px;
+}
+
+.next_btn_me {
+	font-size: 30px;
+	margin-top: 50px;
+	padding-left: 0px;
+}
+
+.right_bar_work {
+	float: right;
+	writing-mode:tb-rl;
+    -webkit-transform:rotate(180deg);
+    -moz-transform:rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform:rotate(180deg);
+    transform: rotate(180deg);
+	border-style: solid;
+	border-size: 0px;
+	border-color: transparent;
+	padding-top: 120px;
+	padding-bottom: 100px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-top: -500px;
+	margin-bottom: -50px;
+	border-radius: 25px;
+	color: purple;
+}
+
+.sidebar_work {
+	font-size: 40px;
+	font-family: Oswald;
+	padding-right: -20px;
+	padding-left: -20px;
+	margin-left: 0px;
+}
+
+.left_sidebar_work {
+	font-size: 40px;
+	font-family: Oswald;
+	padding-right: -20px;
+	padding-left: -20px;
+	margin-left: 0px;
+}
+
+.next_btn_work {
+	font-size: 30px;
+	margin-top: 50px;
+	padding-left: 0px;
+}
+
+.back_btn_work {
+	font-size: 30px;
+	margin-top: 50px;
+	padding-left: 0px;
+}
+
+.left_bar_work {
+	float: left;
+	writing-mode:tb-rl;
+    -webkit-transform:rotate(0deg);
+    -moz-transform:rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform:rotate(0deg);
+    transform: rotate(0deg);
+}
+
+.next_btn {
+	font-size: 30px;
+	margin-top: 30px;
+	padding-left: 0px;
+}
+
 .bg_box {
 	background-color: white;
 	border-width: 1px;
 	border-style: solid;
 	border-color: grey;
 	border-radius: 25px;
-	box-shadow: 10px 10px grey;
-	width: 800px;
+	box-shadow: 10px 10px red;
+	width: 1000px;
 	margin: auto;
+	margin-top: 10px;
+	padding-top: 0px;
+	margin-bottom: 10px;
+	padding-bottom: 0px;
 }	
-
-
-
-.header_name {
-	font-family: Montserrat;
-	padding-bottom: 0%;
-}
 
 .tag_line {
 	padding-top:0%;
@@ -24,6 +198,7 @@
 .p_block {
 	text-align: center;
 	padding-bottom: 10px;
+	width: 800px;
 }
 
 .p1 {
@@ -51,4 +226,42 @@
 	border-width: 3px;
 	border-color: #554C4A;
 	margin: 0 auto;
+}
+
+.navbar {
+	margin-top: 0px;
+	margin-left: 0px;
+	font-family: Arial;
+	text-align: center;
+	font-size: 30px;
+	padding-top: 20px;
+	background: transparent;
+	border-color: transparent;
+	color: blue;
+}
+
+.li > a {
+	color: blue;
+}
+
+.navlink {
+	color: blue;
+}
+
+.navbar .navbar-nav > li > a {
+	color: purple;
+	font-family: 'Oswald', cursive;
+}
+.navbar .navbar-nav > li > a:hover {
+	color: orange;
+}
+
+a {
+	color: purple;
+	text-decoration: none;
+}
+
+a:hover {
+	color: orange;
+	text-decoration: none;
 }
